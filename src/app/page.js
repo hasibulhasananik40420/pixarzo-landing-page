@@ -1,29 +1,29 @@
-import Feedback from '@/Components/Feedback'
-import GetInTouch from '@/Components/GetInTouch'
-import GoogleRedesign from '@/Components/GoogleRedesign'
-import Header from '@/Components/Header'
-import LetestProjects from '@/Components/LetestProjects'
-import OurClient from '@/Components/OurClient'
-import OurTeam from '@/Components/OurTeam'
-import Services from '@/Components/Services'
-import SlientSeller from '@/Components/SlientSeller'
-import SteepProcess from '@/Components/SteepProcess'
+import Feedback from "@/components/Feedback";
+import GetInTouch from "@/components/GetInTouch";
+import GoogleRedesign from "@/components/GoogleRedesign";
+import Header from "@/components/Header";
+import LetestProjects from "@/components/LetestProjects";
+import OurClient from "@/components/OurClient";
+import OurTeam from "@/components/OurTeam";
+import Services from "@/components/Services";
+import SlientSeller from "@/components/SlientSeller";
+import SteepProcess from "@/components/SteepProcess";
 
 const HomePage = () => {
   return (
-    <div>
-      <Header/>
-      <Services/>
-      <OurTeam/>
-      <SlientSeller/>
-      <LetestProjects/>
-      <SteepProcess/>
-      <GoogleRedesign/>
-      <Feedback/>
-      <GetInTouch/>
-      <OurClient/>
+    <div className="overflow-hidden">
+      <Header />
+      <Services />
+      <OurTeam />
+      <SlientSeller />
+      <LetestProjects />
+      <SteepProcess />
+      <GoogleRedesign />
+      <Feedback />
+      <GetInTouch />
+      <OurClient />
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;

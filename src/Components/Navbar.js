@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <section className={`${
       isFixed ? "fixed top-0" : ""
-    } bg-PrimaryColor h-[96px] px-3 transition-all ease-in-out duration-500 w-full z-50`}>
+    } bg-PrimaryColor h-[96px] px-3 transition-all ease-in-out duration-500 w-full z-50 lg:block hidden`}>
         <div className="max-w-[1360px] mx-auto flex justify-between  items-center h-[96px] ">
            <div>
            <Logo/>
