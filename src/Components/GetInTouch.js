@@ -7,7 +7,7 @@ import Image from "next/image";
 const GetInTouch = () => {
   return (
     <section className="bg-PrimaryColor mt-[96px]">
-      <div className="max-w-[1320px] mx-auto px-3 pt-20 lg:flex gap-[93px]">
+      <div className="max-w-[1320px] mx-auto px-3 pt-20 pb-20 md:pb-20 lg:pb-0 lg:flex gap-[93px]">
         <div>
           <Image src={GetInTouchIcon} alt="" height={40} width={40} />
 

@@ -14,7 +14,7 @@ const SteepProcess = () => {
         <div className='lg:flex gap-[112px] mt-12'>
 
         <div className=''>
-        <Image className="w-full h-full object-contain" src={image} alt='' height={619} width={444} layout='responsive'/>
+        <Image className="w-full h-full object-contain" src={image} alt='' height={619} width={444} />
         </div>
 
          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-12 gap-y-6 justify-items-center mt-10 md:mt-16 lg:mt-0'>
