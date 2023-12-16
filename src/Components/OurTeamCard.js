@@ -18,7 +18,7 @@ const OurTeamCard = () => {
             alt=""
             width={312}
             height={371}
-            layout="responsive"
+           
           />
           <div
             className="h-[138px] bg-[#E4F5FF] mt-[-36px] absolute w-full p-6"
@@ -31,7 +31,7 @@ const OurTeamCard = () => {
               Alfredo Ottis
             </h3>
 
-            <button className="flex items-center justify-center mt-3 gap-2 text-[#0084FE] text-[16px] font-bold leading-6 tracking-[0.5px]">
+            <button className="flex items-center justify-center mt-3 gap-2 text-[#0084FE] text-[16px] font-bold leading-6 tracking-[0.5px] hover:text-[#FF338F] duration-300">
               <span>Read bio</span> <MdArrowForward />
             </button>
           </div>
@@ -45,7 +45,7 @@ const OurTeamCard = () => {
             alt=""
             width={312}
             height={371}
-            layout="responsive"
+            
           />
           <div
             className="h-[138px] bg-[#E4F5FF] mt-[-36px] absolute w-full p-6"
@@ -58,7 +58,7 @@ const OurTeamCard = () => {
               Cameron Williamson
             </h3>
 
-            <button className="flex items-center justify-center mt-3 gap-2 text-[#0084FE] text-[16px] font-bold leading-6 tracking-[0.5px]">
+            <button className="flex items-center justify-center mt-3 gap-2 text-[#0084FE] text-[16px] font-bold leading-6 tracking-[0.5px] hover:text-[#FF338F] duration-300">
               <span>Read bio</span> <MdArrowForward />
             </button>
           </div>
@@ -72,7 +72,7 @@ const OurTeamCard = () => {
             alt=""
             width={312}
             height={371}
-            layout="responsive"
+            
           />
           <div
             className="h-[138px] bg-[#E4F5FF] mt-[-36px] absolute w-full p-6"
@@ -85,21 +85,21 @@ const OurTeamCard = () => {
               Dianne Russell
             </h3>
 
-            <button className="flex items-center justify-center mt-3 gap-2 text-[#0084FE] text-[16px] font-bold leading-6 tracking-[0.5px]">
+            <button className="flex items-center justify-center mt-3 gap-2 text-[#0084FE] text-[16px] font-bold leading-6 tracking-[0.5px] hover:text-[#FF338F] duration-300">
               <span>Read bio</span> <MdArrowForward />
             </button>
           </div>
         </div>
 
         {/************ our team card 4 start here ***************/}
-        <div className="llg:w-[300px] xl:w-[312px] w-full relative">
+        <div className="lg:w-[300px] xl:w-[312px] w-full relative">
           <Image
-            className="object-contain w-full"
+            className=" w-full "
             src={image4}
             alt=""
             width={312}
             height={371}
-            layout="responsive"
+           
           />
           <div
             className="h-[138px] bg-[#E4F5FF] mt-[-36px] absolute w-full p-6"
@@ -112,17 +112,21 @@ const OurTeamCard = () => {
               Kathryn Murphy
             </h3>
 
-            <button className="flex items-center justify-center mt-3 gap-2 text-[#0084FE] text-[16px] font-bold leading-6 tracking-[0.5px]">
+            <button className="flex items-center justify-center mt-3 gap-2 text-[#0084FE] text-[16px] font-bold leading-6 tracking-[0.5px] hover:text-[#FF338F] duration-300">
               <span>Read bio</span> <MdArrowForward />
             </button>
           </div>
         </div>
       </div>
 
-      <div className="flex justify-center pt-[48px]">
-        <button className="bg-ButtonColor w-[246px] h-[56px] rounded-[37px] text-white text-[18px] font-bold leading-6 tracking-[0.09px] mt-12">
-        View Team Members
-        </button>
+      <div className="flex justify-center mt-12">
+       
+        <button className="group relative bg-ButtonColor w-[246px] h-[56px] rounded-[37px] text-white text-[18px] font-bold leading-6 tracking-[0.09px] overflow-hidden transition duration-300 ease-in-out mt-12">
+              <span className="absolute inset-0 bg-gradient-to-r from-[#4CAF50] to-[#2196F3] opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out"></span>
+              <span className="relative z-10 flex items-center justify-center h-full">
+              View Team Members
+              </span>
+            </button>
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+"use client"
+
 import Image from 'next/image'
 import voice from '@/assets/GoogleRedesign/voice.png'
 const GoogleRedesign = () => {
@@ -5,8 +7,8 @@ const GoogleRedesign = () => {
     <section className='max-w-[1320px] mx-auto px-3 my-[96px]'>
        <div className='lg:flex '>
           
-        <div className='lg:w-[648px] w-full h-[440px] bg-[#F7F8FA]'>
-            <div className='lg:p-12 p-6'>
+        <div className='lg:w-[648px] w-full lg:h-[448px] md:h-[448px] h-full bg-[#F7F8FA]'>
+            <div className='lg:p-12 md:p-12 p-6'>
             <button className="bg-[#00AEEF] w-[100px] h-[38px] rounded-[37px] text-white text-[12px] font-bold leading-4 tracking-[ 0.6px] mb-4">Case Study</button>
                <h1 className='text-black font-semibold text-[40px] leading-[56px]'>Google Website UI/UX Redesign</h1>
 
@@ -17,8 +19,8 @@ const GoogleRedesign = () => {
             </div>
         </div>
 
-         <div className='lg:w-[672px] w-full h-[448px]'>
-         <Image className="w-full h-full " src={voice} alt='' height={448} width={672} layout='responsive'/>
+         <div className='lg:w-[672px] w-full h-[448px] mt-16 md:mt-16 lg:mt-0 xl:mt-0'>
+         <Image className="w-full h-full " src={voice} alt='' height={448} width={672} />
          </div>
 
        </div>
