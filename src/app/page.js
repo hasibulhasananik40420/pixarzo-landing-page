@@ -12,6 +12,7 @@ import SteepProcess from "@/components/SteepProcess";
 const HomePage = () => {
   return (
     <div className="overflow-hidden">
+      {/***************** home page all file here *********************/}
       <Header />
       <Services />
       <OurTeam />
