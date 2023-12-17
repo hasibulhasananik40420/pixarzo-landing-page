@@ -4,13 +4,29 @@ import Image from 'next/image'
 import image1 from '@/assets/Projects/image1.png'
 import image2 from '@/assets/Projects/image2.png'
 import image3 from '@/assets/Projects/image3.png'
+import { TbLiveView } from "react-icons/tb";
+
 const ProjectsCard = () => {
   return (
     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 xl:grid-cols-3'>
         
         {/*************** project card 1 start here *****************/}
        <div className='xl:w-[424px] lg:w-[380px] w-full '>
-       <Image className="object-contain w-full h-full " src={image1} alt='' height={280} width={424} layout='responsive'/>
+        
+        <div className="relative overflow-hidden group">
+      <Image
+        className="object-contain w-full h-full transition-opacity duration-500 transform hover:opacity-75 hover:brightness-75"
+        src={image1}
+        alt=''
+        height={280}
+        width={424}
+        layout='responsive'
+      />
+      <div className="absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-40 transition-opacity flex items-center justify-center">
+        <TbLiveView className="text-[#F25260] text-3xl hover:cursor-pointer" />
+      </div>
+    </div>
+        
         
         <span className='flex justify-between items-center mt-6'>
         <p className='text-[#F25260] text-[16px] font-normal leading-6'>Royalfy</p>
@@ -24,7 +40,19 @@ const ProjectsCard = () => {
 
      {/*************** project card 2 start here *****************/}
        <div className='xl:w-[424px] lg:w-[380px] w-full '>
-       <Image className="object-contain w-full h-full " src={image2} alt='' height={280} width={424} layout='responsive'/>
+       <div className="relative overflow-hidden group">
+      <Image
+        className="object-contain w-full h-full transition-opacity duration-500 transform hover:opacity-75 hover:brightness-75"
+        src={image2}
+        alt=''
+        height={280}
+        width={424}
+        layout='responsive'
+      />
+      <div className="absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-40 transition-opacity flex items-center justify-center">
+        <TbLiveView className="text-[#F25260] text-3xl hover:cursor-pointer" />
+      </div>
+    </div>
         
         <span className='flex justify-between items-center mt-6'>
         <p className='text-[#F25260] text-[16px] font-normal leading-6'>Emonk</p>
@@ -38,7 +66,19 @@ const ProjectsCard = () => {
 
   {/*************** project card 3 start here *****************/}
        <div className='xl:w-[424px] lg:w-[380px] w-full '>
-       <Image className="object-contain w-full h-full " src={image3} alt='' height={280} width={424} layout='responsive'/>
+       <div className="relative overflow-hidden group">
+      <Image
+        className="object-contain w-full h-full transition-opacity duration-500 transform hover:opacity-75 hover:brightness-75"
+        src={image3}
+        alt=''
+        height={280}
+        width={424}
+        layout='responsive'
+      />
+      <div className="absolute inset-0 bg-gray-800 opacity-0 group-hover:opacity-40 transition-opacity flex items-center justify-center">
+        <TbLiveView className="text-[#F25260] text-3xl hover:cursor-pointer" />
+      </div>
+    </div>
         
         <span className='flex justify-between items-center mt-6'>
         <p className='text-[#F25260] text-[16px] font-normal leading-6'>Pixarzo</p>

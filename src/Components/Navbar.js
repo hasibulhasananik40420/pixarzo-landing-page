@@ -3,6 +3,7 @@
 import Link from "next/link"
 import Logo from "./Logo"
 import { useEffect, useState } from "react";
+import MobileMenu from "./MobileMenu";
 
 
 
@@ -23,8 +24,6 @@ const Navbar = () => {
    
   };
 
- 
-
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
 
@@ -36,7 +35,8 @@ const Navbar = () => {
 
 
   return (
-    <section className={`${
+   <section>
+     <div className={`${
       isFixed ? "fixed top-0" : ""
     } bg-PrimaryColor h-[96px] px-3 transition-all ease-in-out duration-500 w-full z-50 lg:block hidden`}>
         <div className="max-w-[1360px] mx-auto flex justify-between  items-center h-[96px] ">
@@ -73,8 +73,15 @@ const Navbar = () => {
                 
             </div>
         </div>
+
+         
       
-    </section>
+    </div>
+
+        <div className='xl:hidden 2xl:hidden md:block block'>
+          <MobileMenu />
+         </div>
+   </section>
   )
 }
 

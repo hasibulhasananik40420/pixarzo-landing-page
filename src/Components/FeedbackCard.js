@@ -14,7 +14,7 @@ const FeedbackCard = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -65,7 +65,7 @@ const FeedbackCard = () => {
             I have worked with many web designers in the past and I can say that I have never had an experience like this. I have been working with Figma for a few months now and it has been a unique experience.
           </p>
 
-          <span className='lg:mt-12 mt-6 flex items-center relative'>
+          <span className='lg:mt-4 xl:mt-12 mt-6 flex items-center relative'>
             <Image className='w-[110px] h-[110px] z-30' src={image1} alt='' height={110} width={110} />
             <p className='bg-[#00AEEF] w-[105px] h-[56px] ml-[-45px]' style={{ borderRadius: '0px 40px 40px 0px' }}></p>
           </span>
@@ -84,7 +84,7 @@ const FeedbackCard = () => {
             I would like to recommend the website design services of the talented Figma. I had the distinct pleasure of working with their team to build my new website. T
           </p>
 
-          <span className='mt-20 flex items-center relative'>
+          <span className='lg:mt-20 xl:mt-20 mt-6 flex items-center relative'>
             <Image className='w-[110px] h-[110px] z-30' src={image2} alt='' height={110} width={110} />
             <p className='bg-[#00AEEF] w-[105px] h-[56px] ml-[-45px]' style={{ borderRadius: '0px 40px 40px 0px' }}></p>
           </span>
@@ -103,7 +103,7 @@ const FeedbackCard = () => {
             I am thinking about starting a business in mobile app design. came across this website and thought this would be a great place to start.
           </p>
 
-          <span className='mt-12 flex items-center relative'>
+          <span className='lg:mt-12 xl:mt-12 mt-6 flex items-center relative'>
             <Image className='w-[110px] h-[110px] z-30' src={image1} alt='' height={110} width={110} />
             <p className='bg-[#00AEEF] w-[105px] h-[56px] ml-[-45px]' style={{ borderRadius: '0px 40px 40px 0px' }}></p>
           </span>
@@ -122,7 +122,7 @@ const FeedbackCard = () => {
             I am thinking about starting a business in mobile app design. came across this website and thought this would be a great place to start.
           </p>
 
-          <span className='mt-12 flex items-center relative'>
+          <span className='lg:mt-12 xl:mt-12 mt-6 flex items-center relative'>
             <Image className='w-[110px] h-[110px] z-30' src={image1} alt='' height={110} width={110} />
             <p className='bg-[#00AEEF] w-[105px] h-[56px] ml-[-45px]' style={{ borderRadius: '0px 40px 40px 0px' }}></p>
           </span>
