@@ -31,7 +31,9 @@ const Navbar = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [isFixed]); // Re-run effect only when isFixed changes
+  }, [isFixed]); 
+  
+  // Re-run effect only when isFixed changes
 
 
   return (
